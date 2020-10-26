@@ -23,4 +23,5 @@ for i = 0.4:0.4:346.8
   resp_5 = [resp_5 PV];  
 end
 
+figure(5)
 plot(tempo0_4,resp_5)

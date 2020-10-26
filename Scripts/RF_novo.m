@@ -28,4 +28,7 @@ Planta=tf([k],[tal 1])
 
 H=feedback(PI*Planta,1)
 
+figure(4)
 step(50*H)
+
+MalhaFechadaControlador;
