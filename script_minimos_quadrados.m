@@ -20,5 +20,5 @@ clear F
 clear J
 clear Theta
 
-sysZ = tf(b1,[1 -a1],0.4) %Tempo de amostragem de 0.1 segundos
+sysZ = tf(b1,[1 -a1],0.4) %Tempo de amostragem de 0.4 segundos
 sysS = d2c(sysZ)
